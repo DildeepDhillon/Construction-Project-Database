@@ -1,0 +1,16 @@
+{
+  "name": "project_i6h3o_o4e7q_t9h6b",
+  "version": "1.0.0",
+  "description": "CPSC304 Term Project",
+  "main": "server.js",
+  "keywords": [],
+  "author": {
+    "name": "Jaskirat Gill,Tim Sabanshi, Dildeep Dhillon"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "oracledb": "^5.2.0"
+  }
+}

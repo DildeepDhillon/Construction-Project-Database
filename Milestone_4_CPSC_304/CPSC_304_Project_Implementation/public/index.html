@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- This meta tag ensures that the website renders correctly across different device sizes, enhancing mobile responsiveness. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to the external CSS stylesheet. Uncomment if you wish to customize or add styling. -->
+    <!-- <link rel="stylesheet" href="styles.css">   -->
+
+    <title>Project Management Dashboard</title>
+</head>
+<body>
+    <!-- ===================================================================================== -->
+    <!-- Display the current status of the database connection. -->
+    <h1>Database Connection Status: 
+        <!-- An in-line placeholder to display connection status. -->
+        <span id="dbStatus"> </span>
+    </h1>
+
+    <br><hr><br> <!-- ========================================================================= -->
+
+    <!-- Show 'Projects'.
+        Data will be fetched and inserted here dynamically using JavaScript. -->
+    <h2>Show Projects</h2>
+    <table id="projecttable" border="1">
+        <thead>
+            <tr>
+                <!--Table head, need to be adjusted accordingly to align with your own.-->
+                <th>ID</th>
+                <th>Address</th>
+                <th>Budget</th>
+                <th>Deadline</th>
+                <th>City</th>
+                <th>Permit Number</th>
+                <th>Licence #</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <br><hr><br> <!-- ========================================================================= -->
+
+<!--    <h2>Reset All Tables</h2>-->
+<!--    <p>If you wish to reset the table press on the reset button. If this is the first time you're running this page, you MUST use reset</p>-->
+<!--    <button id="resetAllTables"> reset </button> <br>-->
+<!--    &lt;!&ndash; A placeholder to display messages related to the reset operation. &ndash;&gt;-->
+<!--    <div id="resetResultMsg"></div>-->
+
+    <br><hr><br> <!-- ========================================================================= -->
+
+    <!-- ===================================================================================== -->
+    <!-- External JavaScript file that contains the functionality/logic for the operations above. -->
+    <script src="scripts.js"></script>
+</body>
+</html>
